@@ -15,8 +15,17 @@ namespace OtroTest
             Ejercicios.Ejercicio1();
 
             Ejercicios.Ejercicio2(4);
-           
-         
+
+            Ejercicios.Ejercicio3(6);
+
+            int numero = 4;
+            while (numero < 90)
+            {
+                Ejercicios.Ejercicio3(numero);
+                numero++;
+            }
+            
+
         }
 
     }
