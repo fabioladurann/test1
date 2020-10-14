@@ -1,4 +1,5 @@
 ﻿using Ejemplo2;
+using System.Security.Cryptography.X509Certificates;
 
 namespace OtroTest
 {
@@ -36,11 +37,54 @@ namespace OtroTest
 			System.Console.WriteLine("El numero" + numero + "es primo");
 			else
 				System.Console.WriteLine("El numero" + numero + "NO primo");
-		
-		
+        }
 
+		//Vamos hacer una funnción que imprima lo siguiente:
+		public static void EjercicioSerie1()
+        {
+			int i = 0;
+			while (i <= 100)
+            {
+				System.Console.WriteLine(i);
+				i++;
+            }
 
         }
-	}
+		public static void EjercicioSerie2()
+        {
+			int i = 0;
+			while (i <= 100)
+            {
+				System.Console.WriteLine(i * 2);
+
+				i++;
+            }
+
+        }
+		public static void EjercicioSerie3()
+        {
+			int i = 0;
+			while (i <=100)
+            {
+				System.Console.WriteLine(i * 3 +1 );
+
+
+				i++;
+            }	
+		
+        }
+		public static void EjercicioSerie4()
+        {
+			int i = 0;
+			while (i <= 100)
+            {
+				System.Console.WriteLine(i * i);
+
+				i++;
+            }
+        }
+
+
+	} 
 
 }

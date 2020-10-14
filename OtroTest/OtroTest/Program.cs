@@ -24,6 +24,12 @@ namespace OtroTest
                 Ejercicios.Ejercicio3(numero);
                 numero++;
             }
+
+            Ejercicios.EjercicioSerie1();
+
+            Ejercicios.EjercicioSerie2();
+
+            Ejercicios.EjercicioSerie4();
             
 
         }
