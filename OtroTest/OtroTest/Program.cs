@@ -30,6 +30,7 @@ namespace OtroTest
             Ejercicios.EjercicioSerie2();
 
             Ejercicios.EjercicioSerie4();
+            Ejercicios.EjercicioSerie5();
             
 
         }

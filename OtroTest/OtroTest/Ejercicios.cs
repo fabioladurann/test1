@@ -1,4 +1,6 @@
 ﻿using Ejemplo2;
+using System;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography.X509Certificates;
 
 namespace OtroTest
@@ -29,7 +31,13 @@ namespace OtroTest
 				i++;
 			}
 		}
-		public static void Ejercicio3(int numero)
+
+        internal static void EjercicioSerie5()
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void Ejercicio3(int numero)
         {
 			bool esprimo = Utils.IsPrime(numero);
 			if (esprimo)
@@ -83,8 +91,30 @@ namespace OtroTest
 				i++;
             }
         }
+		
 
+        }
+		//hacer una función que imprima la función fibonacci
+		public static void EjercicioSerie5() 
+        {
+			int a = 1;
+			int aa = 0;
+			int i = 100;
+		System.Console.WriteLine(aa);
+		System.Console.WriteLine(a);
+			while (i < 100)
+            {
+				System.Console.WriteLine(a + aa);
 
+				int aux = aa;
+				aa = a;
+
+				a = aux + aa;
+
+				i++;
+            }
+
+        }
 	} 
 
 }
