@@ -7,6 +7,7 @@ namespace OtroTest
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("Hello World!");
 
             bool sol;
@@ -31,9 +32,12 @@ namespace OtroTest
 
             Ejercicios.EjercicioSerie4();
             Ejercicios.EjercicioSerie5();
-            
+            */
 
         }
+
+        int result = EjerciciosExamen.HacerSuma(1, 4);
+        double result = EjerciciosExamen.HacerResta(5, 2);
 
     }
 }

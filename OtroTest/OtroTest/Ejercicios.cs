@@ -32,78 +32,77 @@ namespace OtroTest
 			}
 		}
 
-        internal static void EjercicioSerie5()
-        {
-            throw new NotImplementedException();
-        }
+		internal static void EjercicioSerie5()
+		{
+			throw new NotImplementedException();
+		}
 
-        public static void Ejercicio3(int numero)
-        {
+		public static void Ejercicio3(int numero)
+		{
 			bool esprimo = Utils.IsPrime(numero);
 			if (esprimo)
 
-			System.Console.WriteLine("El numero" + numero + "es primo");
+				System.Console.WriteLine("El numero" + numero + "es primo");
 			else
 				System.Console.WriteLine("El numero" + numero + "NO primo");
-        }
+		}
 
 		//Vamos hacer una funnción que imprima lo siguiente:
 		public static void EjercicioSerie1()
-        {
+		{
 			int i = 0;
 			while (i <= 100)
-            {
+			{
 				System.Console.WriteLine(i);
 				i++;
-            }
+			}
 
-        }
+		}
 		public static void EjercicioSerie2()
-        {
+		{
 			int i = 0;
 			while (i <= 100)
-            {
+			{
 				System.Console.WriteLine(i * 2);
 
 				i++;
-            }
+			}
 
-        }
+		}
 		public static void EjercicioSerie3()
-        {
+		{
 			int i = 0;
-			while (i <=100)
-            {
-				System.Console.WriteLine(i * 3 +1 );
+			while (i <= 100)
+			{
+				System.Console.WriteLine(i * 3 + 1);
 
 
 				i++;
-            }	
-		
-        }
+			}
+
+		}
 		public static void EjercicioSerie4()
-        {
+		{
 			int i = 0;
 			while (i <= 100)
-            {
+			{
 				System.Console.WriteLine(i * i);
 
 				i++;
-            }
-        }
-		
+			}
+		}
 
-        }
+
 		//hacer una función que imprima la función fibonacci
-		public static void EjercicioSerie5() 
-        {
+		public static void EjercicioSerie55()
+		{
 			int a = 1;
 			int aa = 0;
 			int i = 100;
-		System.Console.WriteLine(aa);
-		System.Console.WriteLine(a);
+			System.Console.WriteLine(aa);
+			System.Console.WriteLine(a);
 			while (i < 100)
-            {
+			{
 				System.Console.WriteLine(a + aa);
 
 				int aux = aa;
@@ -112,9 +111,13 @@ namespace OtroTest
 				a = aux + aa;
 
 				i++;
-            }
+			}
 
-        }
-	} 
+		}
+
+
+	}
+
+
 
 }
