@@ -34,12 +34,14 @@ namespace OtroTest
             Ejercicios.EjercicioSerie5();
             */
 
+            int result = EjerciciosExamen.HacerSuma(1, 4);
+            EjerciciosExamen.MayorEntero(4, 5, 8);
+            EjerciciosExamen.MayorReal(2, 4);
+            EjerciciosExamen.BackEnteros(3, 8);
+            EjerciciosExamen.PrintSerie3(8, 5);
         }
 
-        int result = EjerciciosExamen.HacerSuma(1, 4);
-        double result = EjerciciosExamen.HacerResta(5, 2);
-        double result = EjerciciosExamen.MayorReal(7 > 4);
-        double result = EjerciciosExamen.MenorReal(2 < 1);
-
+       
+    
     }
 }
