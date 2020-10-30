@@ -1,4 +1,6 @@
 ﻿
+using System.Security.Cryptography.X509Certificates;
+
 namespace OtroTest
 {
     class EjerciciosExamen
@@ -15,5 +17,27 @@ namespace OtroTest
             return result;
         }
         //Hacer dos funciones que reciban dos reales, la primera la mayor de los reales y la segunda la menor de los reales 
-    }
+    }   public static double MayorReal (double a, double b)
+        {
+        if (a < b)
+        {
+            return a;
+        }
+        else
+        {
+            return b;
+        }
+        public static double MenorReal (double a, double b)
+        {
+            if (a < b)
+            {
+                return a;
+            }
+            else
+            {
+                return b;
+            }
+        }
+     }
+
 }

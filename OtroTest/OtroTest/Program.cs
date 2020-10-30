@@ -38,6 +38,8 @@ namespace OtroTest
 
         int result = EjerciciosExamen.HacerSuma(1, 4);
         double result = EjerciciosExamen.HacerResta(5, 2);
+        double result = EjerciciosExamen.MayorReal(7 > 4);
+        double result = EjerciciosExamen.MenorReal(2 < 1);
 
     }
 }
