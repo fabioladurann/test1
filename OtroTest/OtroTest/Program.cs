@@ -38,8 +38,16 @@ namespace OtroTest
             EjerciciosExamen.MayorEntero(4, 5, 8);
             EjerciciosExamen.MayorReal(2, 4);
             EjerciciosExamen.BackEnteros(3, 8);
-            EjerciciosExamen.PrintSerie3(8, 5);
-        }
+            EjerciciosExamen.PrintSerie3(2);
+            EjerciciosExamen.PrintSerie4(4);
+            EjerciciosExamen.PrintSerie5(3);
+            EjerciciosExamen.Mayor7(1, 5, 8, 4, 7, 6);
+            EjerciciosExamen.PrintSerie7(8);
+            EjerciciosExamen.PrintSerie8(9);
+            EjerciciosExamen.PrintSerie9(5);
+            EjerciciosExamen.PrintSerie10(7);
+        }  
+        
 
        
     
