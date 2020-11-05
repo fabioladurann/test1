@@ -3,6 +3,9 @@
 using Microsoft.Win32.SafeHandles;
 using System.ComponentModel;
 using System.Linq.Expressions;
+using System.Numerics;
+using System.Runtime.ExceptionServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Security.Permissions;
 
 namespace OtroTest
@@ -207,6 +210,44 @@ namespace OtroTest
             }
         }
         // Hacer lo mismo pero que figura (3) *+* (3filas) y figur 4 *+*+ (4filas)
+        public static void PrintSerie12(int n)
+        {
+            for (int f= 0; f < n; f++)
+            {
+                 for (int c = 0; c < n; c++)
+                 {
+                      int flag = c + f;
+                      if ((flag % 2 == 0))
+                           System.Console.Write("*");
+                      else
+                           System.Console.Write("+");
+                 }
+                 System.Console.WriteLine(); // Salto de linea 
+
+            }
+        }  
+        public static void PrintSeri13(int n)
+        {
+            for (int f = 0; f < 0; f++)
+            {
+                int nespacios = n - f - 1;
+                int nasteriscos = f + 1;
+                for ( int c = 0; c < n; c++)
+                {
+                  
+        
+                }
+            }
+        }
+        public static void PrintSeire14 (int n)
+        {
+            for ( int f = 0; f < n; f++)
+            {
+                int nespacios1 = n - f - 1;
+                int nespacios2 = f * 2;
+            }
+        }
      }
+
         
  }
