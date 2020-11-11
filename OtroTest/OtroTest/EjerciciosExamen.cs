@@ -1,12 +1,8 @@
 ﻿
-
-using Microsoft.Win32.SafeHandles;
-using System.ComponentModel;
-using System.Linq.Expressions;
-using System.Numerics;
+using System;
+using System.Reflection.Metadata;
 using System.Runtime.ExceptionServices;
-using System.Security.Cryptography.X509Certificates;
-using System.Security.Permissions;
+using System.Runtime.InteropServices;
 
 namespace OtroTest
 {
@@ -244,10 +240,43 @@ namespace OtroTest
             for ( int f = 0; f < n; f++)
             {
                 int nespacios1 = n - f - 1;
-                int nespacios2 = f * 2;
+                int nespacios2 = f * 2;                                  
             }
         }
+        //Hacer una funciíon que devuelva el sumatorio de un numero
+        public static int Sumatorio(int n)
+        {
+            int result = 0;
+            for (int i = 1; i <= n; i++)
+                result += i;
+            return result;
+
+        }
+        //Haz una funcion que devuelva 2 elevado a un numero
+        // Esta funcion devuelve un double por lo tanto, el de abajo es la opcion mas correcta
+        public static int Elevado(int n)
+        {
+            int result = 1; //Aqui por donde quieres empezar la funcion 1*= 2
+            for (int i = 0; i <= n; i++)
+                result *= 2; // Aqui hacer lo que realmente quieres poner, es decir, el elevado a 2
+            return result; 
+        }
+        public static double Elevado2(int n)
+        {
+            bool invertv_value = n < 0;
+            if (invertv_value)
+                n = -n;
+            for (int i = 0; i < n; i++)
+                result *= 2.0;
+            if (invertv_value)
+                result = 1.0 /result;
+            return result;
+
+
+
+        }
      }
+
 
         
  }

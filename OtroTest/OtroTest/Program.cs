@@ -47,6 +47,8 @@ namespace OtroTest
             EjerciciosExamen.PrintSerie9(5);
             EjerciciosExamen.PrintSerie10(7);
             EjerciciosExamen.PrintSerie12(55);
+            EjerciciosExamen.Sumatorio(7);
+            EjerciciosExamen.Elevado(8);
         }  
         
 
